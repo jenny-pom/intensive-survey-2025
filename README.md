@@ -7,7 +7,7 @@ This project analyzes data from a 2025 intensive survey tracking individual *Ant
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Background Theory](#background-theory)
-- [Methology] (#methology)
+- [Methology] (#Methology-of-the-Intensive-Server)
 - [Installation & Setup](#-installation--setup)
 - [Key Analyses & Visualizations](#-key-analyses--visualizations)
 - [Handling Anomalies & Outliers](#-handling-anomalies--outliers)
@@ -16,15 +16,7 @@ This project analyzes data from a 2025 intensive survey tracking individual *Ant
 ---
 
 ## Project Aim
-This project processes field data from the `Intensive_Survey_2025.csv` dataset that weekly tracked the estimated flower number, estimated fruit number and biweekly the number of flowering stems and number of fruiting stems of *Anthurium majus*. The selected plants were growing along the lower road (LRYF1, LRC and LRMF1) of the hybrid zone. The goal of the Survey is to generate a dataset that follows the same individuals of *Anthurium majus* for a longer period of time, tracking the plants flower production and seed production.
-
-My project plan/Questions I am intrested in answering: 
-- Look at the ratio of flower production and fruit production, does higher flower production result in higher fruit yield. Is there a correclation between this or not?
-- I also want to create an interactive html file where the Pf samples are visualized as nots along the lower road and the user can walk through the time frame to see the change in the flower production. This html file should also contain plots of improtant and intresting biological questions that have not already been studied. 
-- Also looking at if the age of the plant correspond to the flower production? Does older plants actually produce more flowers?
-Also I want to add if the flower colour is related to the aount of flower production ratio to fruit yeild. Example: Does white hybrids have less fruits even thought they produce many flowers? 
-- Maybe look at correlation of flowering stems and number of lfowers and number of fruiting stems. 
-- Flowering effort correspond to fruit production. (Messure of fitness)
+The primary objective of the 2025 intensive survey was to conduct a smaller-scale follow-up to the more extensive intensive surveys carried out in 2021 and 2022. Together, these consecutive efforts establish a long-term dataset that tracks the same Antirrhinum majus individuals over multiple seasons to monitor cumulative floral and reproductive output. Building upon this foundation, the specific aim of this project is to analyze the 2025 dataset to evaluate the correlation between flower production and fruit yield. Specifically, we seek to determine whether a higher investment in floral displays directly translates to increased reproductive success. This allows us to investigate whether larger, older plants achieve higher fruit yields simply by producing more flowers, or if smaller individuals with fewer flowers can achieve a comparable or higher relative fruit yield. To address these questions, we will model total flower counts against final fruit production. Furthermore, as a secondary objective, we will explore the influence of phenotypic traits such as flower color to better understand how these characteristics affect fruit yield. Finally, we aim to map or visualize the spatial distribution of these intensive survey individuals by generating an interactive HTML file.
 
 ---
 
@@ -49,10 +41,13 @@ To minimize inter-observer bias and maintain data consistency, all field measure
 
 ---
 
-## 💻 Installation & Setup
+## Installation & Setup
 
-1. **Clone the repository:**
+**Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/plant-survey-analysis.git](https://github.com/yourusername/plant-survey-analysis.git)
-   cd plant-survey-analysis
+   git clone https://github.com/jenny-pom/intensive-survey-2025.git
+
+   ````
+
+
    
