@@ -1,13 +1,13 @@
 # Intensive Plant Survey Analysis (2025)
 
-This project analyzes data from a 2025 intensive survey tracking individual *Antirrhinum majus* plants (commonly named snapdragons). The collected data includes weekly flower and fruit counts, paired with biweekly flowering-stem and fruting-stem counts. Ultimately, this survey supports a larger, ongoing research project that studies the ecological and evolutionary dynamics within a hybrid zone of magenta (A. majus pseudomajus) and yellow (A. majus striatum) morphs.
+This project analyzes data from a 2025 intensive survey tracking individual *Antirrhinum majus* plants (commonly named snapdragons). The collected data includes weekly flower and fruit counts, paired with biweekly flowering-stem and fruting-stem counts. Ultimately, this survey supports a much larger, ongoing research project that studies the ecological and evolutionary dynamics within a hybrid zone of magenta (*A. majus pseudomajus*) and yellow (*A. majus striatum*) morphs.
 
 ---
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
-- [Background Theory](#background-theory)
-- [Methology] (#Methology-of-the-Intensive-Server)
+- [Background Theory](#-background-theory)
+- [Methodology] (#-methodology)
 - [Installation & Setup](#-installation--setup)
 - [Key Analyses & Visualizations](#-key-analyses--visualizations)
 - [Handling Anomalies & Outliers](#-handling-anomalies--outliers)
@@ -15,7 +15,7 @@ This project analyzes data from a 2025 intensive survey tracking individual *Ant
 
 ---
 
-## Project Aim
+## Project Overview
 The primary objective of the 2025 intensive survey was to conduct a smaller-scale follow-up to the more extensive intensive surveys carried out in 2021 and 2022. Together, these consecutive efforts establish a long-term dataset that tracks the same Antirrhinum majus individuals over multiple seasons to monitor cumulative floral and reproductive output. Building upon this foundation, the specific aim of this project is to analyze the 2025 dataset to evaluate the correlation between flower production and fruit yield. Specifically, we seek to determine whether a higher investment in floral displays directly translates to increased reproductive success. This allows us to investigate whether larger, older plants achieve higher fruit yields simply by producing more flowers, or if smaller individuals with fewer flowers can achieve a comparable or higher relative fruit yield. To address these questions, we will model total flower counts against final fruit production. Furthermore, as a secondary objective, we will explore the influence of phenotypic traits such as flower color to better understand how these characteristics affect fruit yield. Finally, we aim to map or visualize the spatial distribution of these intensive survey individuals by generating an interactive HTML file.
 
 ---
@@ -26,11 +26,16 @@ The primary objective of the 2025 intensive survey was to conduct a smaller-scal
 - Feys background
 - how many lives does a snapdragon have?
 - How long can snapdragons live? oldest plant is 11 year
-- 
+INCLUDE:
+* resource Allocation
+* self comaptibility in majus
+* seed predation
+* lination limitation
+
 
 ---
 
-## Methology of the Intensive Server
+## Methodology
 During the 2025 field season, an intensive survey was conducted to monitor a maximum of 395 individual snapdragon plants. The survey transect spanned the lower hybrid core (LC), initiating in magenta flank 1 (LMF1) and extending into yellow flank 1 (LYF1). 
 
 Upon initial inclusion, each individual was assigned a unique identification number and sampled according to standard sampling protocols (SOURCE). In addition, to minimize time searcing, a small highly visible red tape pieces was affixed to the stem of each plant included in the server to increase their visability. 
