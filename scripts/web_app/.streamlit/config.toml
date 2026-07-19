@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#2E7D32"         # The accent color (buttons, sliders, etc.)
+backgroundColor = "#F1F8E9"      # The main app background (e.g., a soft green tint)
+secondaryBackgroundColor = "#DCEDC8" # Sidebar and input widget background
+textColor = "#1B5E20"            # Main text color
+font = "sans serif"

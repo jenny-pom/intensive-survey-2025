@@ -1,0 +1,19 @@
+ # Load the image string once before the loop starts
+    try:
+       logo_base64 = get_base64_png("../data/raw/logo.png")
+    except FileNotFoundError:
+       logo_base64 = None 
+    
+
+# 3. Inside your marker loop:
+    for index, coord_row in coordinates_df.iterrows():
+        if logo_base64:
+            my_icon = folium.CustomIcon(
+                icon_image=logo_base64, 
+                icon_size=(60, 60),
+                icon_anchor=(15, 15)
+            )
+        else:
+            # BEHÅLL DENNA AKTIV (Avkommenterad): 
+            # Detta är din "reserv-ikon" om logo.png saknas
+            my_icon = folium.Icon(color='red')
