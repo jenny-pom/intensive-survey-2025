@@ -13,9 +13,8 @@ def get_base64_png(image_path):
    return f"data:image/png;base64,{encoded}"
 
 # Load the original tracking data and coordinates data
-df = pd.read_csv('../../data/raw/forJenny_IntensiveSurvey2025.csv')
-coordinates_df = pd.read_csv("../../data/processed/unique_coordinates_list.csv")
-raw_coordinates_df = pd.read_csv("../../data/processed/all_coordinates.csv")  # Load the raw coordinates for comparison
+df = pd.read_csv('data/raw/forJenny_IntensiveSurvey2025.csv')coordinates_df = pd.read_csv("../../data/processed/unique_coordinates_list.csv")
+raw_coordinates_df = pd.read_csv('data/processed/all_coordinates.csv')  # Load the raw coordinates for comparison
 
 # set up the Streamlit page configuration
 st.set_page_config(
