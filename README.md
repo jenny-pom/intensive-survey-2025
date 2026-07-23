@@ -56,32 +56,18 @@ To minimize inter-observer bias and maintain data consistency, all field measure
 
 ---
 ## Data Cleaning
-My raw data file is 'forJenny_IntensiveSurvey2025.csv' and I intially clean the file by removing all rows containing NA. These rows correspond to the point where the plant was introduced to th3 survey and only location and ID was recorded. 
+The raw dataset for this project is stored in `forJenny_IntensiveSurvey2025.csv`. 
+
+Initial filtering is performed by running:
+
 ```bash
    python remove_NA.py
 ```
 I then plot the data in using my web_app/2_Map.py script to observed outliers. 
 | PlantID | Present in the IntensiveSurvey_2025_list | Comment | Removed |
-| --------------- | --------------- | --------------- |
-| Row 1,  PF0560   | Row 1, NO   | Row 1, Only observed on 30/06/2025 and location was recorded at GR11.   | Yes   |
-| Row 2, PF5665   | Row 2, NO   | Row 2, PE5665 exist and I think it was a typo (PF instead of PE) because PF5665 does not exist in the list and PE5665 was not recorded 07/07/2025 what PF5665 occurs.   | YES   |
-| Row 3, Cell 1   | Row 3, Cell 2   | Row 3, Cell 3   | Row 3, Cell 4   |
-| Row 4, Cell 1   | Row 4, Cell 2   | Row 4, Cell 3   | Row 4, Cell 4   |
-| Row 5, Cell 1   | Row 5, Cell 2   | Row 5, Cell 3   | Row 5, Cell 4   |
-| Row 6, Cell 1   | Row 6, Cell 2   | Row 6, Cell 3   | Row 6, Cell 4   |
-| Row 7, Cell 1   | Row 7, Cell 2   | Row 7, Cell 3   | Row 7, Cell 4   |
-| Row 8, Cell 1   | Row 8, Cell 2   | Row 8, Cell 3   | Row 8, Cell 4   |
-| Row 9, Cell 1   | Row 9, Cell 2   | Row 9, Cell 3   | Row 9, Cell 4   |
-| Row 10, Cell 1  | Row 10, Cell 2  | Row 10, Cell 3  | Row 10, Cell 4  |
-| Row 11, Cell 1  | Row 11, Cell 2  | Row 11, Cell 3  | Row 11, Cell 4  |
-| Row 12, Cell 1  | Row 12, Cell 2  | Row 12, Cell 3  | Row 12, Cell 4  |
-| Row 13, Cell 1  | Row 13, Cell 2  | Row 13, Cell 3  | Row 13, Cell 4  |
-| Row 14, Cell 1  | Row 14, Cell 2  | Row 14, Cell 3  | Row 14, Cell 4  |
-| Row 15, Cell 1  | Row 15, Cell 2  | Row 15, Cell 3  | Row 15, Cell 4  |
-| Row 16, Cell 1  | Row 16, Cell 2  | Row 16, Cell 3  | Row 16, Cell 4  |
-| Row 17, Cell 1  | Row 17, Cell 2  | Row 17, Cell 3  | Row 17, Cell 4  |
-| Row 18, Cell 1  | Row 18, Cell 2  | Row 18, Cell 3  | Row 18, Cell 4  |
-| Row 19, Cell 1  | Row 19, Cell 2  | Row 19, Cell 3  | Row 19, Cell 4  |
-| Row 20, Cell 1  | Row 20, Cell 2  | Row 20, Cell 3  | Row 20, Cell 4  |
-
+| :--- | :---: | :---: | :---: |
+| **PF0560** | NO | Row 1, Only observed on 30/06/2025 and location was recorded at GR11. | YES |
+| **PF5665** | NO | Row 2, PE5665 exist and I think it was a typo (PF instead of PE) because PF5665 does not exist in the list and PE5665 was not recorded 07/07/2025 what PF5665 occurs. | NO |
+| **   ** |  | 9 | 18 |
+| **   ** |  | 0 | 0 |
    
