@@ -63,11 +63,24 @@ Initial filtering is performed by running:
 ```bash
    python remove_NA.py
 ```
-I then plot the data in using my web_app/2_Map.py script to observed outliers. 
+I then plot the data using my web_app/2_Map.py script to observed outliers. These are the observed outliers that I have either corrected or removed. 
+
 | PlantID | Present in the IntensiveSurvey_2025_list | Comment | Removed |
 | :--- | :---: | :---: | :---: |
-| **PF0560** | NO | Row 1, Only observed on 30/06/2025 and location was recorded at GR11. | YES |
-| **PF5665** | NO | Row 2, PE5665 exist and I think it was a typo (PF instead of PE) because PF5665 does not exist in the list and PE5665 was not recorded 07/07/2025 what PF5665 occurs. | NO |
-| **   ** |  | 9 | 18 |
-| **   ** |  | 0 | 0 |
-   
+| **PF0560** | NO | Only observed on 30/06/2025 and location was recorded at GR11. | YES |
+| **PF5665** | NO | PE5665 exist and I think it was a typo (PF instead of PE) because PF5665 does not exist in the list and PE5665 was not recorded 07/07/2025 what PF5665 occurs. | NO (PE5665 -> PF5665) |
+| **PE0131** | NO | PF0131 exists and was not recorded on the same day as PE0131, probably a typo | NO (PE0131 -> PF0131) |
+| **PF0251** | NO | Only observed on the 19/06/2025. Comment says dead. | YES |
+| **PE4507** | NO | Only observed on the 19/06/2025. No matching PF-id. | YES |
+| **PF3512** | NO | Probably a mix up with PE3512 who was in the intensive survey | NO (PF3512 -> PE3512) |
+| **PE2365** | NO | Only observed on the 23/06/2025. | YES |
+| **PD2945** | NO | Probably a mix up with PE2945 (that was recorded for 4 days but not in the intensive survey list.) | YES |
+| **PF0538** | NO | Probably a mix up with PE0538 | NO (PF0538 -> PE0538) |
+| **PF0529** | NO | Probably a mix up with PE0529 | NO (PF0529 -> PE0529) |
+| **PF3295** | NO | Proably a mix up with PE3295 | NO (PF3295 -> PE3295) |
+| **PF3292** | NO | Proably a mix up with PE3295 | NO (PF3292 -> PE3292) | NO (PF3292 -> PE3292) |
+| **PF0739** | NO | Only observed on the 12/06/2025. | YES |
+| **PF0697** | NO | Only observed on the 07/07/2025. No PE or PE id exist. Checked all PF069* but they were recorded on the same date so no mix up with the last digit. | YES |
+| **PE3570** | NO | Only observed on the 19/06/2025. No PF-id observed. | YES |
+
+In addition to this there are 20+ individuals located in the lower yeloow flank 1 (LYF1) that was initally followed but then removed from the survey in June. They will not be removed from the data but they will not be included in the analysis.  
