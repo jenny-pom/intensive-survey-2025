@@ -190,7 +190,7 @@ st.markdown("""
             I then score each plant as the percentage of max number of fruits divided by 
             total number of flowers. 
 
-            $$\\text{Efficiency Score} = \\left( \\frac{\\text{Max Fruits}}{\\text{Total Flowers}} \\right) \\times 100$$
+            $$\\text{Efficiency Score} = \\left( \\frac{\\text{Max Fruits}}{\\text{Total Flowers}} \\right) \times 100$$
             
             This score is then what I use to range each plant.
             """)
