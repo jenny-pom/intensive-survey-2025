@@ -7,7 +7,7 @@ This project analyzes data from a 2025 intensive survey tracking individual *Ant
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Background Theory](#-background-theory)
-- [Methodology] (#-methodology)
+- [Methodology](#-methodology)
 - [Installation & Setup](#-installation--setup)
 - [Key Analyses & Visualizations](#-key-analyses--visualizations)
 - [Handling Anomalies & Outliers](#-handling-anomalies--outliers)
